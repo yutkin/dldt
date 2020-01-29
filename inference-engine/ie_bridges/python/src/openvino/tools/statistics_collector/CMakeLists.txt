@@ -13,6 +13,7 @@ set_source_files_properties(${SOURCE} PROPERTIES CYTHON_IS_CXX TRUE
 )
 include_directories (
     ${CMAKE_SOURCE_DIR}/samples/common
+    ${CMAKE_SOURCE_DIR}/tools/calibration_tool/statistics_collector
 )
 
 ## Compatibility with python 2.7 which has deprecated "register" specifier
